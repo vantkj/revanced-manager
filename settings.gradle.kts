@@ -17,7 +17,6 @@ dependencyResolutionManagement {
             name = "githubPackages"
             // A repository must be specified for some reason. "registry" is a dummy.
             url = uri("https://maven.pkg.github.com/revanced/registry")
-            credentials(PasswordCredentials::class)
         }
     }
 }
